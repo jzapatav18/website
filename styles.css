@@ -37,10 +37,15 @@ h2 {
 }
 
 .centrar-video {
-  display: block;
+  position: relative;
   margin: 0 auto;
+  overflow: hidden;
+  max-width: 100%;  
 }
 
 .color {
   color: rgb(26, 26, 26);
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
 }
